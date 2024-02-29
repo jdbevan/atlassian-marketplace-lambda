@@ -93,7 +93,7 @@ describe("lambda", () => {
         await expect(response).resolves.toEqual(
             expect.arrayContaining([
                 "Search less. Find more. Enhanced Search makes finding issues in Jira easier, faster and more precise with Enhanced JQL Functions",
-                "Organise your issues easily. Major features include advanced searching for attachments, subtasks, comments, versions and links. All keywords can be used in advanced search with autocompletion and saved as filters. No scripting is required."
+                "Organize your issues easily. Major features include advanced searching for attachments, subtasks, comments, versions and links. All keywords can be used in advanced search with autocompletion and saved as filters. No scripting is required."
             ])
         );
     });
